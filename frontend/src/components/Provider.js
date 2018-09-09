@@ -66,9 +66,13 @@ export class Provider extends Component{
                         </CardTitle>
 
                         <Map google={this.props.google}
-                             style={{width: '100%', height: '100%', position: 'relative'}}
+                             style={{width: '100%', height: '300px', position: 'relative'}}
                              className={'map'}
                              zoom={20}>
+                            <Marker
+                                title={'The marker`s title will appear as a tooltip.'}
+                                name={'SOMA'}
+                                position={{lat: 37.778519, lng: -122.405640}} />
                             {/*this.marker  uncomment his when you have the object*/}
                         </Map>
                         <CardBody>
