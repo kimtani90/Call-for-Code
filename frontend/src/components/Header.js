@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import bsn from "./bsn.png";
+import helpinghand from "./helpinghand.png";
 
 
 class Header extends Component {
@@ -16,11 +16,11 @@ class Header extends Component {
 
                         <div className="navbar-header">
                             <br/>
-                            <img className="" src={bsn}
+                            <img className="center" src={helpinghand}
                                  alt="" height="50" />
                         </div>
                         <div className="col-md-offset-5 col-md-12">
-                            <h3> <b> <label>CONTROLLER UPGRADE SERVICE </label></b></h3>
+                            <h3> <b> <label> Helping Hand </label></b></h3>
 
 
                         </div>

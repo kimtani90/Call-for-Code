@@ -12,7 +12,7 @@ class Footer extends Component {
         return (
 
                     <div className="footer">
-                        <label> © 2018 bigswitch.com. All rights reserved.</label>
+                        <label> </label>
                     </div>
 
 
