@@ -20,3 +20,10 @@
 
 .form-gradient input[type=password]:focus:not([readonly]) + label {
     color: #4f4f4f; }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

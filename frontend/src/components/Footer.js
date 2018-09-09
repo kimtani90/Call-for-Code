@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-
-import bsn from "./bsn.png";
+import './homepage.css';
+//import bsn from "./bsn.png";
 
 
 class Footer extends Component {

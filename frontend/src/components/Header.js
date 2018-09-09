@@ -14,10 +14,10 @@ class Header extends Component {
                 <nav className="navbar navbar-inverse">
                     <div className="container-fluid">
 
-                        <div className="navbar-header">
+                        <div className="center">
                             <br/>
-                            <img className="center" src={helpinghand}
-                                 alt="" height="50" />
+                            <img className="" src={helpinghand}
+                                 alt="" height={50} />
                         </div>
                         <div className="col-md-offset-5 col-md-12">
                             <h3> <b> <label> Helping Hand </label></b></h3>
